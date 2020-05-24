@@ -8,16 +8,16 @@ function App() {
 				<button className='button-one'>Hover Me</button>
 				<button className='button-two'>Hover Me</button>
 			</div>
-			<div className='text'>
+			<div className='smoky'>
 				<ul>
 					<li>M</li>
 					<li>r</li>
 					<li>.</li>
 					<li>S</li>
 					<li>t</li>
-          <li>a</li>
-          <li>r</li>
-          <li>k</li>
+					<li>a</li>
+					<li>r</li>
+					<li>k</li>
 				</ul>
 			</div>
 		</div>

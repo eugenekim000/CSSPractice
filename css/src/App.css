@@ -66,3 +66,50 @@
 	opacity: 1;
 }
 
+.smoky ul {
+	margin: 20px;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.smoky ul li {
+	display: flex;
+	list-style: none;
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	letter-spacing: 10px;
+	transition: 2s;
+}
+
+.smoky ul:hover li {
+	transform: rotate(45deg) translateX(200px);
+	opacity: 0;
+	filter: blur(20px);
+}
+
+.smoky li:nth-child(1) {
+}
+
+.smoky li:nth-child(2) {
+	transition-delay: 0.2s;
+}
+.smoky li:nth-child(3) {
+	transition-delay: 0.4s;
+}
+.smoky li:nth-child(4) {
+	transition-delay: 0.6s;
+}
+.smoky li:nth-child(5) {
+	transition-delay: 0.8s;
+}
+.smoky li:nth-child(6) {
+	transition-delay: 1s;
+}
+.smoky li:nth-child(7) {
+	transition-delay: 1.2s;
+}
+.smoky li:nth-child(8) {
+	transition-delay: 1.4s;
+}
