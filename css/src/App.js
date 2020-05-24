@@ -22,6 +22,12 @@ function App() {
 			</div>
 
 			<div className='loading'></div>
+			<div className='loading2'>
+				<span />
+				<span />
+				<span />
+				<span />
+			</div>
 		</div>
 	);
 }
