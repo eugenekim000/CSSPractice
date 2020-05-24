@@ -20,6 +20,8 @@ function App() {
 					<li>k</li>
 				</ul>
 			</div>
+
+			<div className='loading'></div>
 		</div>
 	);
 }

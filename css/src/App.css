@@ -1,8 +1,12 @@
 .App {
 	text-align: center;
+	justify-content: center;
+	align-items: center;
+	perspective: 1000px;
 }
 
 .button-one {
+	margin: 100px;
 	color: white;
 	text-decoration: none;
 	font-size: 40px;
@@ -35,6 +39,7 @@
 }
 
 .button-two {
+	margin: 50px;
 	text-decoration: none;
 	font-size: 40px;
 	padding: 40px 80px;
@@ -67,7 +72,7 @@
 }
 
 .smoky ul {
-	margin: 20px;
+	margin: 100px 0px 200px 0px;
 	padding: 0;
 	display: flex;
 	justify-content: center;
@@ -87,9 +92,6 @@
 	transform: rotate(45deg) translateX(200px);
 	opacity: 0;
 	filter: blur(20px);
-}
-
-.smoky li:nth-child(1) {
 }
 
 .smoky li:nth-child(2) {
@@ -112,4 +114,26 @@
 }
 .smoky li:nth-child(8) {
 	transition-delay: 1.4s;
+}
+
+.loading {
+	margin: 150px auto;
+	display: flex;
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	border-radius: 12px;
+	animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+	0% {
+		transform: rotateX(0deg) rotateY(0deg);
+	}
+	50% {
+		transform: rotateX(0deg) rotateY(180deg);
+	}
+	100% {
+		transform: rotateX(180deg) rotateY(180deg);
+	}
 }
